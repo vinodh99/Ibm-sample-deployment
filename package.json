@@ -1,0 +1,47 @@
+{
+  "name": "mean-boilerplate-ibm-bluemix",
+  "version": "1.0.0",
+  "description": "MEAN (Mongo, Express, Angular, Node.js) Boilerplate for IBM Bluemix",
+  "main": "server.js",
+  "engines": {
+    "node": ">=4.4.5"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IBM-Bluemix/Nodejs-MEAN-Stack.git"
+  },
+  "keywords": [
+    "Node.js",
+    "mongo",
+    "angular",
+    "express",
+    "javascript",
+    "boilerplate"
+  ],
+  "author": "IBM Bluemix",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/IBM-Bluemix/Nodejs-MEAN-Stack/issues"
+  },
+  "homepage": "https://github.com/IBM-Bluemix/Nodejs-MEAN-Stack",
+  "dependencies": {
+    "bcrypt": "^2.0.0",
+    "body-parser": "^1.14.1",
+    "cf-deployment-tracker-client": "0.0.8",
+    "cfenv": "1.0.x",
+    "connect-mongo": "^1.1.0",
+    "cookie-parser": "^1.4.0",
+    "dotenv": "^1.2.0",
+    "express": "4.12.x",
+    "express-session": "^1.12.1",
+    "express-validator": "^2.18.0",
+    "mongoose": "^4.2.6",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {}
+}
